@@ -1,0 +1,10 @@
+<h3>  Add to Cart </h3>
+
+
+<%= session[:cart] %>
+
+<form action="/add_to_cart" method="post">
+  <input type="text" name="product">
+
+  <input type="submit" name="" value="add to cart">
+</form>
